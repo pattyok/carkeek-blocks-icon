@@ -1,0 +1,34 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "carkeek-blocks/landing-page-link-icon",
+	"version": "0.1.0",
+	"title": "Landing Page Link with Icon",
+	"category": "widgets",
+	"description": "Set a link with an icon to a sub-page.",
+	"supports": {
+		"reusable": false,
+		"html": false
+	  },
+	"textdomain": "carkeek-blocks",
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"linkTitle": {
+		   "type": "string",
+		   "sourcer": "html",
+		   "selector": ".ck-page-link"
+		},
+		"linkUrl": {
+		   "type": "string",
+		   "source": "attribute",
+		   "selector": "a",
+		   "attribute": "href"
+		},
+		"pageIntro": {
+		   "type": "string",
+		   "source": "html",
+		   "selector": ".ck-page-link-description"
+		}
+	 }
+}

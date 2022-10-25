@@ -1,0 +1,23 @@
+.wp-block-carkeek-blocks-quick-link-icon {
+
+		& .components-base-control {
+			width: 100%;
+
+		}
+
+		& .components-base-control__field {
+			text-align: left;
+			width: 100%;
+		}
+
+		& .quick-link.is-link {
+			color: #007daa;
+			font-weight: 700;
+		}
+		&.block-editor-block-list__block .block-editor-url-input input[type=text],
+		.block-editor-url-input input[type=text] {
+			border: 1px solid #999999;
+			padding: 0.75rem;
+		}
+
+	}

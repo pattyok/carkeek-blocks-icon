@@ -1,0 +1,72 @@
+:root {
+	--icon-circle-color: #0061AA;
+	--icon-circle-bg-color: transparent;
+	--icon-circle-border-color:#0061AA33;
+	--icon-circle-color-hover: #0061AA;
+	--icon-circle-border-color-hover: #0061AA33;
+	--icon-circle-bg-color-hover: #D4E8F9;
+	--icon-circle-color-active: #fff;
+	--icon-circle-border-color-active: #0061AA33;
+	--icon-circle-bg-color-active: #007DA9;
+
+	--icon-small-color: #3A8038;
+	--icon-small-border: 4px solid #0061AA33;
+}
+
+.wp-block-carkeek-blocks-icon-block {
+
+	font-size: 18px;
+
+
+	&.is-style-circled {
+
+		border-radius: 100%;
+		border: 4px solid var(--icon-circle-border-color);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 44px;
+		width: 44px;
+		background-color: var(--icon-circle-bg-color);
+		color: var(--icon-circle-color);
+
+	}
+	a:hover & {
+		&.is-style-circled {
+			color: var(--icon-circle-color-hover);
+			border-color: var(--icon-circle-border-color-hover);
+			background-color: var(--icon-circle-bg-color-hover);
+
+		}
+	}
+
+	a:active &,
+	a:focus & {
+		&.is-style-circled {
+			color: var(--icon-circle-color-active);
+			border-color: var(--icon-circle-border-color-active);
+			background-color: var(--icon-circle-bg-color-active);
+		}
+	}
+
+
+	&.is-style-small {
+		font-size: 36px;
+		padding: 0 18px;
+		color: var(--icon-small-color);
+		border-left: var(--icon-small-border);
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+
+	.wp-block-carkeek-blocks-icon-block {
+		font-size: 36px;
+		&.is-style-circled {
+			height: 72px;
+			width: 72px;
+		}
+
+	}
+}

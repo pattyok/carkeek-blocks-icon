@@ -1,0 +1,44 @@
+.carkeek-blocks-icon-types-list.block-editor-block-types-list {
+	height: 150px;
+	overflow-y: auto;
+
+	& .block-editor-block-types-list__list-item {
+
+		&.selected-svg {
+			border: 1px solid #007daa;
+		}
+
+		& .components-button {
+			align-items: center;
+			box-shadow: none;
+			color: #1e1e1e;
+			display: flex;
+			height: auto;
+			justify-content: center;
+			outline: 1px dotted transparent;
+			padding: 0;
+			width: 100%;
+
+			&.is-primary {
+				border: 1px solid #007daa;
+			}
+
+			& svg {
+				fill: currentColor;
+				height: 20px;
+				margin: 0;
+				overflow: hidden;
+				padding: 0;
+				width: 20px;
+			}
+		}
+
+	}
+
+}
+
+.editor-styles-wrapper .wp-block-carkeek-blocks-icon-block {
+	i {
+		font-style: normal;
+	}
+}

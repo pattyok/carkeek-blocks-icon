@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "carkeek-blocks/quick-link-icon",
+  "version": "0.1.0",
+  "title": "Quick Link with Icon",
+  "category": "widgets",
+  "description": "Set a link with an icon to a page.",
+  "supports": {
+    "reusable": false,
+    "html": false
+  },
+  "textdomain": "carkeek-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "linkTitle": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "a",
+      "attribute": "href"
+    },
+    "newWindow": {
+      "type": "boolean"
+    }
+  }
+}
