@@ -2,6 +2,8 @@
 /**
  * Plugin Name:       Carkeek Blocks  - Icon Block
  * Description:       Installs the icon block and related blocks.
+ * Plugin URI: https://github.com/pattyok/carkeek-blocks-icon
+ * GitHub Plugin URI: pattyok/carkeek-blocks-icon
  * Requires at least: 5.9
  * Requires PHP:      7.0
  * Version:           1.0.0
