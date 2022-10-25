@@ -38,6 +38,10 @@
 }
 
 .editor-styles-wrapper .wp-block-carkeek-blocks-icon-block {
+	/** no double borders */
+	&.block-editor-block-list__block {
+		border: none;
+	}
 	i {
 		font-style: normal;
 	}
