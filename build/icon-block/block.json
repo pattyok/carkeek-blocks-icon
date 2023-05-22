@@ -12,6 +12,9 @@
       "background": true,
       "text": true,
       "link": true
+    },
+    "typography": {
+      "fontSize": true
     }
   },
   "textdomain": "carkeek-blocks",

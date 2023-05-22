@@ -1,0 +1,1 @@
+{"version":3,"file":"landing-page-link/style-index.css","mappings":";;;AAEC;EACC;AADF,C","sources":["webpack://carkeek-blocks-icon/./src/landing-page-link/style.scss"],"sourcesContent":["\n.wp-block-carkeek-blocks-landing-page-link-icon {\n\t.wp-block-carkeek-blocks-icon-block {\n\t\tmargin-bottom: 1rem;\n\t}\n}\n\n\n"],"names":[],"sourceRoot":""}

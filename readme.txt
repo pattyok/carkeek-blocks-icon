@@ -26,7 +26,8 @@ This plugin uses Font Awesome v6. To use, Font Awesome needs to be installed on 
 To update the font pack in the plugin. Go to Font Awesome and download the web font, use the json files in the download.
 
 == Changelog ==
-
+= 1.0.10 =
+Added support for font size and color
 = 1.0.0 =
 * Release
 Updated from previous iterations to be a dynamic render to support updates to Font Awesome. We cannot update the previous iterations (usu found in Carkeek Site Blocks on some sites) wihout having to update every instance.

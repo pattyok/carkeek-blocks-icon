@@ -2,7 +2,7 @@
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
 	"name": "carkeek-blocks/icon-block",
-	"version": "1.0.03",
+	"version": "1.0.10",
 	"title": "Icon Block",
 	"category": "widgets",
 	"description": "Select a Font Awesome icon to display",
@@ -12,6 +12,9 @@
 			"background": true,
 			"text": true,
 			"link": true
+		},
+		"typography": {
+			"fontSize": true
 		}
 	},
 	"textdomain": "carkeek-blocks",
