@@ -30,9 +30,7 @@ function Inspector( props ) {
 	// 	this.onSetNewTab = this.onSetNewTab.bind( this );
 	// }
 
-	const [isSearching, setIsSearching] = useState( false );
-	const [searchValue, setSearchValue] = useState( '' );
-	const [filteredIcons, setFilteredIcons] = useState( svg );
+
 
 	const {
 		attributes,
@@ -45,6 +43,10 @@ function Inspector( props ) {
 		href,
 		linkTarget,
 	} = attributes;
+
+	const [isSearching, setIsSearching] = useState( false );
+	const [searchValue, setSearchValue] = useState( icon );
+	const [filteredIcons, setFilteredIcons] = useState( svg );
 
 	const setLinkTarget = ( value ) => {
 		if ( ! value ) {

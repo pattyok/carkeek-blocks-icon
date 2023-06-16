@@ -2,10 +2,10 @@
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
 	"name": "carkeek-blocks/icon-block",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"title": "Icon Block",
 	"category": "widgets",
-	"description": "Select a Font Awesome icon to display",
+	"description": "Select a Font Awesome icon to display.",
 	"supports": {
 		"html": false,
 		"color": {

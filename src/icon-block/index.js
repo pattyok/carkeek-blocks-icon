@@ -26,6 +26,20 @@ registerBlockType(metadata, {
         'awesome'
 	],
 	deprecated,
+	transforms: {
+		from: [
+			{
+				type: 'block',
+				blocks: [ 'carkeek-blocks/icon' ],
+				transform: ( attributes, innerBlocks ) => {
+					console.log(innerBlocks);
+					return createBlock( 'carkeek-blocks/icon-block', {
+						...attributes,
+					} );
+				}
+			}
+		]
+	},
     styles: [
 		{
 			name: 'circled',

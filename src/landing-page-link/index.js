@@ -1,5 +1,5 @@
 import "./style.scss";
-import { registerBlockType } from "@wordpress/blocks";
+import { registerBlockType, createBlock } from "@wordpress/blocks";
 import icons from "./icon";
 import { __ } from "@wordpress/i18n";
 import edit from "./edit";
@@ -18,6 +18,21 @@ registerBlockType(metadata, {
     keywords: [__("link", "carkeek-blocks"), __("page", "carkeek-blocks"), __("landing page", "carkeek-blocks"), __("icon", "carkeek-blocks")],
 
     deprecated,
+
+	transforms: {
+		from: [
+			{
+				type: 'block',
+				blocks: [ 'carkeek-blocks/page-link' ],
+				transform: ( attributes, innerBlocks ) => {
+					console.log(innerBlocks);
+					return createBlock( 'carkeek-blocks/landing-page-link-icon', {
+						...attributes
+					} );
+				}
+			}
+		]
+	},
 
     save: ({ attributes }) => {
         const {
