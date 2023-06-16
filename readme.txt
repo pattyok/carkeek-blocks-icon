@@ -28,16 +28,14 @@ To update the font pack in the plugin. Go to Font Awesome and download the web f
 == Changelog ==
 = 1.0.12  6/16/2023 =
 Show selected icon term in the search bar
+
 = 1.0.11  5/22/2023 =
 Added support for align
+
 = 1.0.10 5/22/2023 =
 Added support for font size and color
+
 = 1.0.0 =
 * Release
 Updated from previous iterations to be a dynamic render to support updates to Font Awesome. We cannot update the previous iterations (usu found in Carkeek Site Blocks on some sites) wihout having to update every instance.
 
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
