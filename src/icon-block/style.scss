@@ -16,6 +16,13 @@
 .wp-block-carkeek-blocks-icon-block {
 
 	font-size: 18px;
+	&.aligncenter {
+		text-align: center;
+		& > * {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
 
 
 	&.is-style-circled {

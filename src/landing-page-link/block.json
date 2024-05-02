@@ -3,13 +3,14 @@
 	"apiVersion": 2,
 	"name": "carkeek-blocks/landing-page-link-icon",
 	"version": "0.1.0",
-	"title": "Landing Page Link with Icon",
+	"title": "Icon - Page Link",
 	"category": "widgets",
 	"description": "Set a link with an icon to a sub-page.",
 	"supports": {
 		"reusable": false,
 		"html": false
 	  },
+	  "keywords": ["icon", "link", "page link"],
 	"textdomain": "carkeek-blocks",
 	"editorScript": "file:./index.js",
 	"style": "file:./style-index.css",

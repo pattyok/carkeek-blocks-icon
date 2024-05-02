@@ -7,7 +7,7 @@
  * Primary Branch: main
  * Requires at least: 5.9
  * Requires PHP:      7.0
- * Version:           1.0.13
+ * Version:           1.0.14
  * Author:            The Rhizome Collaborative
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
