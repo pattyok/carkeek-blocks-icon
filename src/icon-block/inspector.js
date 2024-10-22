@@ -40,21 +40,14 @@ function Inspector( props ) {
 	const {
 		icon,
 		variation,
-		href,
-		linkTarget,
+
 	} = attributes;
 
 	const [isSearching, setIsSearching] = useState( false );
 	const [searchValue, setSearchValue] = useState( icon );
 	const [filteredIcons, setFilteredIcons] = useState( svg );
 
-	const setLinkTarget = ( value ) => {
-		if ( ! value ) {
-			setAttributes( { linkTarget: '_self' } );
-		} else {
-			setAttributes( { linkTarget: '_blank' } );
-		}
-	}
+
 
 	const filterList = ( event ) => {
 		const filtered = {};
@@ -175,19 +168,7 @@ function Inspector( props ) {
 
 					}
 				</PanelBody>
-				<PanelBody
-					title={ __( 'Link settings', 'carkeek-blocks' ) }
-					initialOpen={ false } >
-					<URLInput
-						value={href}
-						onChange={ ( href ) => setAttributes( { href } ) }
-						label={__("Link URL", "carkeek-blocks")}
-					/>
-					<ToggleControl
-						label={ linkTarget ? __( 'Opening in new tab', 'carkeek-blocks' ) : __( 'Open in new tab', 'carkeek-blocks' ) }
-						onChange={ ( val ) => setLinkTarget( { val } ) }
-						checked={ linkTarget === '_blank' } />
-				</PanelBody>
+
 			</InspectorControls>
 		</>
 	);

@@ -26,6 +26,9 @@ This plugin uses Font Awesome v6. To use, Font Awesome needs to be installed on 
 To update the font pack in the plugin. Go to Font Awesome and download the web font, use the json files in the download.
 
 == Changelog ==
+= 1.2.00  10/22/2024 =
+Added the ability to add an icon to a button
+
 = 1.0.12  6/16/2023 =
 Show selected icon term in the search bar
 

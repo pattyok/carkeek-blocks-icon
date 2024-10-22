@@ -1,0 +1,9 @@
+.wp-block-buttons > .wp-block-button.wp-block-button__link--icon {
+	display: flex;
+	align-items: center;
+	padding-top: 0;
+	padding-bottom: 0;
+	& .wp-block-button__link {
+		border: none;
+	}
+}

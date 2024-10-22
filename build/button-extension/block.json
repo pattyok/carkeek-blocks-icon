@@ -1,0 +1,7 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "carkeek-blocks/button-extension",
+  "version": "1.0.12",
+  "editorScript": "file:./index.js"
+}
