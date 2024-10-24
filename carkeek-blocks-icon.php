@@ -7,7 +7,7 @@
  * Primary Branch: main
  * Requires at least: 5.9
  * Requires PHP:      7.0
- * Version:           1.2.00
+ * Version:           1.2.01
  * Author:            The Rhizome Collaborative
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -68,7 +68,7 @@ add_action( 'enqueue_block_editor_assets', 'enable_button_icons_enqueue_block_ed
  * Render icons on the frontend.
  */
 function enable_button_icons_render_block_button( $block_content, $block ) {
-	if ( ! isset( $block['attrs']['icon'] ) ) {
+	if ( ! isset( $block['attrs']['icon'] ) || ! isset($block['attrs']['addIcon']) || ! $block['attrs']['addIcon'] ) {
 		return $block_content;
 	}
 

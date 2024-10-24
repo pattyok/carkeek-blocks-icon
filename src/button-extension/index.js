@@ -49,12 +49,12 @@ function addAttributes( settings ) {
 		...settings,
 		edit(props) {
 			const { attributes, setAttributes } = props;
-			const { icon, variation, iconPositionLeft } = attributes;
+			const { icon, variation, iconPositionLeft, addIcon } = attributes;
 			const colorProps = useColorProps( attributes );
 			let iconDiv = '';
 			let iconDivLeft = '';
 			let buttonClass = '';
-			if ( icon  ) {
+			if ( addIcon  ) {
 				const iconStyle = 'fa-' + icon + ' fa-' + variation;
 				if (iconPositionLeft) {
 					iconDivLeft = <i className={ iconStyle }></i>;
