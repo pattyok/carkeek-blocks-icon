@@ -65,12 +65,12 @@
 		border-left: var(--icon-small-border);
 	}
 }
-
-.wp-block-button.has-icon-left .wp-block-button__link i {
-	padding-right: 0.5em;
-}
-.wp-block-button.has-icon-right .wp-block-button__link i {
-	padding-left: 0.5em;
+.wp-block-button.has-icon-left .wp-block-button__link,
+.wp-block-button.has-icon-right .wp-block-button__link {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	white-space: nowrap;
 }
 
 
