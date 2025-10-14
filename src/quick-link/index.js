@@ -12,8 +12,6 @@ import { InnerBlocks, useBlockProps } from "@wordpress/block-editor";
 registerBlockType(metadata, {
     icon: icons.landingPage,
 
-    parent: ["carkeek-blocks/quick-link"],
-
     keywords: [__("link", "carkeek-blocks"), __("quick", "carkeek-blocks"), __("i would like to", "carkeek-blocks"), __("icon", "carkeek-blocks")],
 
     deprecated,
